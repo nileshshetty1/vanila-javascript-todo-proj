@@ -57,7 +57,7 @@ const renderTasks = () => {
     const taskPara = document.createElement("p");
     taskPara.className = "task-para";
     taskPara.textContent = taskObj.task; // Display only the task string
-    taskPara.setAttribute("task-id", taskObj.id); // Set custom task-id attribute
+    taskPara.setAttribute("task-id", taskObj.id);
 
     taskDiv.appendChild(taskPara);
     listDiv.appendChild(taskDiv);
